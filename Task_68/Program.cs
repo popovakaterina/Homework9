@@ -15,12 +15,12 @@ int M = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int Function (int i, int j)
+int Function (int m, int n)
 {
-    if (i == 0) return j + 1;
-    if (i > 0 && j == 0) return Function(i - 1, 1);
-    if (i > 0 && j > 0) return Function(i - 1, Function(i, j - 1));
-return Function(i, j);
+    if (m == 0) return n + 1;
+    if (m > 0 && n == 0) return Function(m - 1, 1);
+    if (m > 0 && n > 0) return Function(m - 1, Function(m, n - 1));
+return Function(m, n);
 }
 if (M < 0 && N < 0) // Это функция с двумя аргументами, каждому из которых может быть присвоено любое неотрицательное целое число.
 {
