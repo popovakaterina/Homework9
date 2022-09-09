@@ -1,9 +1,6 @@
 ﻿//Задайте значения M и N. Напишите программу,
 // которая найдёт сумму натуральных элементов в промежутке от M до N.
 
-void Array(int[] array) // Объявление пустого масисва 
-{
-}
 Console.Clear();
 Console.WriteLine("Введите число M: ");
 int M = Convert.ToInt32(Console.ReadLine());
@@ -17,4 +14,4 @@ for (int i = M; i <= N; i++)
         summ = summ+i;
     }      
 }
-Console.WriteLine("Сумма натуральных элементов массива = " +summ);
+Console.WriteLine("Сумма натуральных чисел промежутка от M до N = " +summ);
