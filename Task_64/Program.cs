@@ -1,8 +1,6 @@
 ﻿// Задайте значения M и N. Напишите программу,
 // которая выведет все натуральные числа в промежутке от M до N
-void Array(int[] array) // Объявление пустого масисва 
-{
-}
+
 Console.Clear();
 Console.WriteLine("Введите число M: ");
 int M = Convert.ToInt32(Console.ReadLine());
